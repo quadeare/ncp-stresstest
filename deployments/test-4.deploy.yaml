@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: test-4
+    test: 1
   name: test-4
   namespace: test-4
 spec:
