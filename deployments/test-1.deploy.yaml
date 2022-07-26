@@ -19,7 +19,7 @@ spec:
         app: test-1
     spec:
       containers:
-      - image: alpine
-        name: alpine
+      - image: tkgi-harbor-01a.corp.local/library/nginx
+        name: nginx
         resources: {}
 status: {}
