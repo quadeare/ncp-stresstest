@@ -3,20 +3,20 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: test-1
-  name: test-1
-  namespace: test-1
+    app: test-5
+  name: test-5
+  namespace: test-5
 spec:
   replicas: 50
   selector:
     matchLabels:
-      app: test-1
+      app: test-5
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: test-1
+        app: test-5
     spec:
       containers:
       - image: tkgi-harbor-01a.corp.local/library/nginx
