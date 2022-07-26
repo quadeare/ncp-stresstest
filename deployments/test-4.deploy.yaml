@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: test-1
+  name: test-1
+  namespace: test-1
+spec:
+  replicas: 50
+  selector:
+    matchLabels:
+      app: test-1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: test-1
+    spec:
+      containers:
+      - image: alpine
+        name: alpine
+        resources: {}
+status: {}
